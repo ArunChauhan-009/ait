@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Cinzel:wght@400..900&family=Italiana&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Londrina+Sketch&family=Mate+SC&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background:#18681e;
+    color: white;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero {
+    background: #554f4f;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.hero h2 {
+    color: #242824;
+    margin-bottom: 1rem;
+}
+
+
+.services {
+    background: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.services ul {
+    list-style: none;
+}
+
+.services li {
+    margin: 0.5rem 0;
+}
+
+
+.about {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+
+.contact {
+    background: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+
+footer {
+    background: #18681e;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
